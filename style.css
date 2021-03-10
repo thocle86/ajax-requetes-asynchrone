@@ -1,0 +1,58 @@
+html {
+    background-color: yellow;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+}
+
+.title {
+    font-size: 50px;
+}
+
+.card {
+    display: grid;
+    grid-template-rows: 85% 15%;
+    justify-items: center;
+    margin: 10px;
+    padding: 10px;
+    width: 80vw;
+    height: 80vh;
+    background-color: white;
+    text-align: center;
+    border-radius: 20px;
+}
+
+.content {
+    display: grid;
+    grid-template-rows: 20% 75% 5%;
+}
+
+.content h2 {
+    padding: 20px;
+}
+
+.content div img {
+    height: 100%;
+    padding: 20px;
+}
+
+.content h5 {
+    padding: 20px;
+}
+
+#myButton {
+    width: 300px;
+    margin: 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: rgb(37, 122, 179);
+    color: white;
+    font-size: 30px;
+}
